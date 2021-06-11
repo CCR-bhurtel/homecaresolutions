@@ -193,7 +193,7 @@ function index() {
                 Full Name
               </label>
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -209,7 +209,7 @@ function index() {
                 Date
               </label>
               <input
-                // required
+                required
                 onChange={onChange}
                 type="date"
                 name="date"
@@ -225,7 +225,7 @@ function index() {
                 Address
               </label>
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 name="address"
@@ -242,7 +242,7 @@ function index() {
                 City
               </label>
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 name="city"
@@ -258,7 +258,7 @@ function index() {
                 State
               </label>
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -274,7 +274,7 @@ function index() {
                 Zip
               </label>
               <input
-                // required
+                required
                 onChange={onChange}
                 id="zip"
                 name="zip"
@@ -291,7 +291,7 @@ function index() {
                 Phone
               </label>
               <input
-                // required
+                required
                 onChange={onChange}
                 type="number"
                 className="form-control"
@@ -314,7 +314,7 @@ function index() {
                 Email
               </label>
               <input
-                // required
+                required
                 onChange={onChange}
                 type="email"
                 name="email"
@@ -331,7 +331,7 @@ function index() {
                 Date Available
               </label>
               <input
-                // required
+                required
                 onChange={onChange}
                 type="date"
                 name="dateAvailable"
@@ -348,7 +348,7 @@ function index() {
                 Social Security#
               </label>
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -365,7 +365,7 @@ function index() {
                 Desired Salary/HR
               </label>
               <input
-                // required
+                required
                 onChange={onChange}
                 type="number"
                 className="form-control"
@@ -382,7 +382,7 @@ function index() {
                 Position Applied For
               </label>
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -398,7 +398,7 @@ function index() {
                 Certifications
               </label>
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -418,7 +418,7 @@ function index() {
 
               <div className="form-check form-check-inline">
                 <input
-                  // required
+                  required
                   onChange={onChange}
                   className="form-check-input
                   onChange={onChange}"
@@ -433,7 +433,7 @@ function index() {
               </div>
               <div className="form-check form-check-inline">
                 <input
-                  // required
+                  required
                   onChange={onChange}
                   className="form-check-input
                   onChange={onChange}"
@@ -493,7 +493,7 @@ function index() {
 
               <div className="form-check form-check-inline">
                 <input
-                  // required
+                  required
                   onChange={onChange}
                   className="form-check-input
                   onChange={onChange}"
@@ -508,7 +508,7 @@ function index() {
               </div>
               <div className="form-check form-check-inline">
                 <input
-                  // required
+                  required
                   onChange={onChange}
                   className="form-check-input
                   onChange={onChange}"
@@ -548,7 +548,7 @@ function index() {
 
               <div className="form-check form-check-inline">
                 <input
-                  // required
+                  required
                   onChange={onChange}
                   className="form-check-input
                   onChange={onChange}"
@@ -563,7 +563,7 @@ function index() {
               </div>
               <div className="form-check form-check-inline">
                 <input
-                  // required
+                  required
                   onChange={onChange}
                   className="form-check-input
                   onChange={onChange}"
@@ -608,7 +608,7 @@ function index() {
                     High School
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="text"
                     className="form-control"
@@ -628,7 +628,7 @@ function index() {
                     Address
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="text"
                     className="form-control"
@@ -657,7 +657,7 @@ function index() {
                     From
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="date"
                     className="form-control"
@@ -686,7 +686,7 @@ function index() {
                     To
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="date"
                     className="form-control"
@@ -702,7 +702,7 @@ function index() {
 
                   <div className="form-check form-check-inline margin1">
                     <input
-                      // required
+                      required
                       onChange={onChange}
                       className="form-check-input
                       onChange={onChange}"
@@ -720,7 +720,7 @@ function index() {
                   </div>
                   <div className="form-check form-check-inline margin1">
                     <input
-                      // required
+                      required
                       onChange={onChange}
                       className="form-check-input
                       onChange={onChange}"
@@ -757,7 +757,7 @@ function index() {
                     Diploma
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="text"
                     className="form-control"
@@ -786,7 +786,7 @@ function index() {
                     Other
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="text"
                     className="form-control"
@@ -815,7 +815,7 @@ function index() {
                     Address
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="text"
                     className="form-control"
@@ -841,7 +841,7 @@ function index() {
                         FullName
                       </label>
                       <input
-                        // required
+                        required
                         onChange={onChange}
                         type="text"
                         className="form-control"
@@ -862,7 +862,7 @@ function index() {
                         Relationship
                       </label>
                       <input
-                        // required
+                        required
                         onChange={onChange}
                         type="text"
                         className="form-control"
@@ -883,7 +883,7 @@ function index() {
                         Company
                       </label>
                       <input
-                        // required
+                        required
                         onChange={onChange}
                         type="text"
                         className="form-control"
@@ -904,7 +904,7 @@ function index() {
                         Phone
                       </label>
                       <input
-                        // required
+                        required
                         onChange={onChange}
                         type="number"
                         className="form-control"
@@ -925,7 +925,7 @@ function index() {
                         Address
                       </label>
                       <input
-                        // required
+                        required
                         onChange={onChange}
                         type="text"
                         className="form-control"
@@ -952,7 +952,7 @@ function index() {
                         FullName
                       </label>
                       <input
-                        // required
+                        required
                         onChange={onChange}
                         type="text"
                         className="form-control"
@@ -973,7 +973,7 @@ function index() {
                         Relationship
                       </label>
                       <input
-                        // required
+                        required
                         onChange={onChange}
                         type="text"
                         className="form-control"
@@ -994,7 +994,7 @@ function index() {
                         Company
                       </label>
                       <input
-                        // required
+                        required
                         onChange={onChange}
                         type="text"
                         className="form-control"
@@ -1015,7 +1015,7 @@ function index() {
                         Phone
                       </label>
                       <input
-                        // required
+                        required
                         onChange={onChange}
                         type="number"
                         className="form-control"
@@ -1036,7 +1036,7 @@ function index() {
                         Address
                       </label>
                       <input
-                        // required
+                        required
                         onChange={onChange}
                         type="text"
                         className="form-control"
@@ -1063,7 +1063,7 @@ function index() {
                         FullName
                       </label>
                       <input
-                        // required
+                        required
                         onChange={onChange}
                         type="text"
                         className="form-control"
@@ -1084,7 +1084,7 @@ function index() {
                         Relationship
                       </label>
                       <input
-                        // required
+                        required
                         onChange={onChange}
                         type="text"
                         className="form-control"
@@ -1105,7 +1105,7 @@ function index() {
                         Company
                       </label>
                       <input
-                        // required
+                        required
                         onChange={onChange}
                         type="text"
                         className="form-control"
@@ -1126,7 +1126,7 @@ function index() {
                         Phone
                       </label>
                       <input
-                        // required
+                        required
                         onChange={onChange}
                         type="number"
                         className="form-control"
@@ -1147,7 +1147,7 @@ function index() {
                         Address
                       </label>
                       <input
-                        // required
+                        required
                         onChange={onChange}
                         type="text"
                         className="form-control"
@@ -1176,7 +1176,7 @@ function index() {
                     Company
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="text"
                     className="form-control"
@@ -1197,7 +1197,7 @@ function index() {
                     Phone
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="number"
                     className="form-control"
@@ -1218,7 +1218,7 @@ function index() {
                     Address
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="text"
                     className="form-control"
@@ -1239,7 +1239,7 @@ function index() {
                     Supervisor
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="text"
                     className="form-control"
@@ -1260,7 +1260,7 @@ function index() {
                     Job Title
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="text"
                     className="form-control"
@@ -1281,7 +1281,7 @@ function index() {
                     Starting Salary
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="number"
                     className="form-control"
@@ -1302,7 +1302,7 @@ function index() {
                     Ending Salary
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="number"
                     className="form-control"
@@ -1323,7 +1323,7 @@ function index() {
                     Responsibilities
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="text"
                     className="form-control"
@@ -1344,7 +1344,7 @@ function index() {
                     From
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="date"
                     className="form-control"
@@ -1365,7 +1365,7 @@ function index() {
                     To
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="date"
                     className="form-control"
@@ -1386,7 +1386,7 @@ function index() {
                     Reason Of leaving
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="text"
                     className="form-control"
@@ -1405,7 +1405,7 @@ function index() {
 
                   <div className="form-check form-check-inline">
                     <input
-                      // required
+                      required
                       onChange={onChange}
                       className="form-check-input
                       onChange={onChange}"
@@ -1423,7 +1423,7 @@ function index() {
                   </div>
                   <div className="form-check form-check-inline">
                     <input
-                      // required
+                      required
                       onChange={onChange}
                       className="form-check-input
                       onChange={onChange}"
@@ -1458,7 +1458,7 @@ function index() {
                     Company
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="text"
                     className="form-control"
@@ -1479,7 +1479,7 @@ function index() {
                     Phone
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="number"
                     className="form-control"
@@ -1500,7 +1500,7 @@ function index() {
                     Address
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="text"
                     className="form-control"
@@ -1521,7 +1521,7 @@ function index() {
                     Supervisor
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="text"
                     className="form-control"
@@ -1542,7 +1542,7 @@ function index() {
                     Job Title
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="text"
                     className="form-control"
@@ -1563,7 +1563,7 @@ function index() {
                     Starting Salary
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="number"
                     className="form-control"
@@ -1584,7 +1584,7 @@ function index() {
                     Ending Salary
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="number"
                     className="form-control"
@@ -1605,7 +1605,7 @@ function index() {
                     Responsibilities
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="text"
                     className="form-control"
@@ -1626,7 +1626,7 @@ function index() {
                     From
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="date"
                     className="form-control"
@@ -1647,7 +1647,7 @@ function index() {
                     To
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="date"
                     className="form-control"
@@ -1668,7 +1668,7 @@ function index() {
                     Reason Of leaving
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="text"
                     className="form-control"
@@ -1687,7 +1687,7 @@ function index() {
 
                   <div className="form-check form-check-inline">
                     <input
-                      // required
+                      required
                       onChange={onChange}
                       className="form-check-input
                       onChange={onChange}"
@@ -1705,7 +1705,7 @@ function index() {
                   </div>
                   <div className="form-check form-check-inline">
                     <input
-                      // required
+                      required
                       onChange={onChange}
                       className="form-check-input
                       onChange={onChange}"
@@ -1838,7 +1838,7 @@ function index() {
                   <div style={{ width: '95%' }}>
                     {' '}
                     <input
-                      // required
+                      required
                       onChange={onChange}
                       style={{ height: '25px' }}
                       type="text"
@@ -1867,7 +1867,7 @@ function index() {
                     Signature Picture
                   </label>
                   <input
-                    // required
+                    required
                    
                     type="file"
                     className="form-control"
@@ -1887,7 +1887,7 @@ function index() {
                       Date
                     </label>
                     <input
-                      // required
+                      required
                       onChange={onChange}
                       type="Date"
                       className="form-control"
@@ -1913,7 +1913,7 @@ function index() {
                 Name
               </label>
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -1929,7 +1929,7 @@ function index() {
                 SS#
               </label>
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -1945,7 +1945,7 @@ function index() {
                 DOB
               </label>
               <input
-                // required
+                required
                 onChange={onChange}
                 type="date"
                 className="form-control"
@@ -2004,7 +2004,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2017,7 +2017,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2042,7 +2042,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2055,7 +2055,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2076,7 +2076,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2089,7 +2089,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2110,7 +2110,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2123,7 +2123,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2144,7 +2144,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2157,7 +2157,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2178,7 +2178,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2191,7 +2191,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2212,7 +2212,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2225,7 +2225,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2246,7 +2246,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2259,7 +2259,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2280,7 +2280,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2293,7 +2293,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2314,7 +2314,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2327,7 +2327,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2348,7 +2348,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2361,7 +2361,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2382,7 +2382,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2395,7 +2395,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2416,7 +2416,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2429,7 +2429,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2450,7 +2450,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2463,7 +2463,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2484,7 +2484,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2497,7 +2497,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2518,7 +2518,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2531,7 +2531,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2552,7 +2552,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2565,7 +2565,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2586,7 +2586,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2599,7 +2599,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2620,7 +2620,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2633,7 +2633,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2654,7 +2654,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2667,7 +2667,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2688,7 +2688,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2701,7 +2701,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2722,7 +2722,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2735,7 +2735,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2756,7 +2756,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2769,7 +2769,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2790,7 +2790,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2803,7 +2803,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2824,7 +2824,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="Date"
                 className="form-control"
@@ -2837,7 +2837,7 @@ function index() {
           <div className="col-md-3  margin1">
             <div className="mb-6">
               <input
-                // required
+                required
                 onChange={onChange}
                 type="text"
                 className="form-control"
@@ -2859,7 +2859,7 @@ function index() {
             <div className="mb-6" style={{ marginTop: '23px' }}>
               <div className="form-check form-check-inline">
                 <input
-                  // required
+                  required
                   onChange={onChange}
                   className="form-check-input
                   onChange={onChange}"
@@ -2874,7 +2874,7 @@ function index() {
               </div>
               <div className="form-check form-check-inline">
                 <input
-                  // required
+                  required
                   onChange={onChange}
                   className="form-check-input
                   onChange={onChange}"
@@ -2897,7 +2897,7 @@ function index() {
                 className="form-label"
               ></label>
               <input
-                // required
+                required
                 onChange={onChange}
                 type="date"
                 className="form-control"
@@ -2955,7 +2955,7 @@ function index() {
               style={{ display: 'flex', alignItems: 'center' }}
             >
               <input
-                // required
+                required
                 onChange={onChange}
                 type="date"
                 className="form-control"
@@ -2986,7 +2986,7 @@ function index() {
             </label>
 
             <input
-              // required
+              required
              
               type="file"
               className="form-control"
@@ -3008,7 +3008,7 @@ function index() {
               </label>
 
               <input
-                // required
+                required
                 onChange={onChange}
                 type="date"
                 className="form-control"
@@ -3029,7 +3029,7 @@ function index() {
             </label>
 
             <input
-              // required
+              required
              
               type="file"
               className="form-control"
@@ -3051,7 +3051,7 @@ function index() {
               </label>
 
               <input
-                // required
+                required
                 onChange={onChange}
                 type="date"
                 className="form-control"
@@ -3114,7 +3114,7 @@ function index() {
                     <div style={{ width: '95%' }}>
                       {' '}
                       <input
-                        // required
+                        required
                         onChange={onChange}
                         style={{ height: '34px' }}
                         type="text"
@@ -3146,7 +3146,7 @@ function index() {
                 </label>
 
                 <input
-                  // required
+                  required
                  
                   type="file"
                   className="form-control"
@@ -3169,7 +3169,7 @@ function index() {
                   Date
                 </label>
                 <input
-                  // required
+                  required
                   onChange={onChange}
                   type="date"
                   className="form-control"
@@ -3191,7 +3191,7 @@ function index() {
                 </label>
 
                 <input
-                  // required
+                  required
                  
                   type="file"
                   className="form-control"
@@ -3214,7 +3214,7 @@ function index() {
                   Date
                 </label>
                 <input
-                  // required
+                  required
                   onChange={onChange}
                   type="date"
                   className="form-control"
@@ -3405,7 +3405,7 @@ function index() {
             </label>
 
             <input
-              // required
+              required
               onChange={onChange}
               type="text"
               className="form-control"
@@ -3428,7 +3428,7 @@ function index() {
               </label>
 
               <input
-                // required
+                required
                 onChange={onChange}
                 type="date"
                 className="form-control"
@@ -3450,7 +3450,7 @@ function index() {
             </label>
 
             <input
-              // required
+              required
              
               type="file"
               className="form-control"
@@ -3472,7 +3472,7 @@ function index() {
               </label>
 
               <input
-                // required
+                required
                 onChange={onChange}
                 type="date"
                 className="form-control"
@@ -3493,7 +3493,7 @@ function index() {
             </label>
 
             <input
-              // required
+              required
               onChange={onChange}
               type="text"
               className="form-control"
@@ -3516,7 +3516,7 @@ function index() {
               </label>
 
               <input
-                // required
+                required
                 onChange={onChange}
                 type="date"
                 className="form-control"
@@ -3650,7 +3650,7 @@ function index() {
                   Employee Signature Picture
                 </label>
                 <input
-                  // required
+                  required
                  
                   type="file"
                   className="form-control"
@@ -3670,7 +3670,7 @@ function index() {
                     Date
                   </label>
                   <input
-                    // required
+                    required
                     onChange={onChange}
                     type="Date"
                     className="form-control"
@@ -3695,7 +3695,7 @@ function index() {
                 Administrator Signature Picture
               </label>
               <input
-                // required
+                required
                
                 type="file"
                 className="form-control"
@@ -3715,7 +3715,7 @@ function index() {
                   Date
                 </label>
                 <input
-                  // required
+                  required
                   onChange={onChange}
                   type="Date"
                   className="form-control"
@@ -3870,7 +3870,7 @@ function index() {
             </label>
 
             <input
-              // required
+              required
              
               type="file"
               className="form-control"
@@ -3892,7 +3892,7 @@ function index() {
               </label>
 
               <input
-                // required
+                required
                 onChange={onChange}
                 type="date"
                 className="form-control"
@@ -3914,7 +3914,7 @@ function index() {
             </label>
 
             <input
-              // required
+              required
              
               type="file"
               className="form-control"
@@ -3936,7 +3936,7 @@ function index() {
               </label>
 
               <input
-                // required
+                required
                 onChange={onChange}
                 type="date"
                 className="form-control"
@@ -3957,7 +3957,7 @@ function index() {
             <div style={{ width: '95%' }}>
               {' '}
               <input
-                // required
+                required
                 onChange={onChange}
                 style={{ height: '34px' }}
                 type="text"
@@ -3998,7 +3998,7 @@ function index() {
             </label>
 
             <input
-              // required
+              required
              
               type="file"
               id="ESP5"
@@ -4021,7 +4021,7 @@ function index() {
               Date
             </label>
             <input
-              // required
+              required
               onChange={onChange}
               type="date"
               className="form-control"
@@ -4042,7 +4042,7 @@ function index() {
             </label>
 
             <input
-              // required
+              required
               onChange={onChange}
               type="text"
               className="form-control"
@@ -4065,7 +4065,7 @@ function index() {
               Date
             </label>
             <input
-              // required
+              required
               onChange={onChange}
               type="date"
               className="form-control"
@@ -4086,7 +4086,7 @@ function index() {
             </label>
 
             <input
-              // required
+              required
               onChange={onChange}
               type="text"
               className="form-control"
@@ -4109,7 +4109,7 @@ function index() {
               Date
             </label>
             <input
-              // required
+              required
               onChange={onChange}
               type="date"
               className="form-control"
@@ -4127,7 +4127,7 @@ function index() {
             <div style={{ width: '50%' }}>
               {' '}
               <input
-                // required
+                required
                 onChange={onChange}
                 style={{ height: '34px' }}
                 type="text"
@@ -4155,7 +4155,7 @@ function index() {
             <div style={{ width: '50%', marginTop: '20px' }}>
               {' '}
               <input
-                // required
+                required
                 onChange={onChange}
                 style={{ height: '34px' }}
                 type="text"
@@ -4173,7 +4173,7 @@ function index() {
           <div className="col-md-8 mt-4">
             <label style={{ marginRight: '9px' }}> Employee Name </label>
             <input
-              // required
+              required
               onChange={onChange}
               type="text"
               className="form-control"
@@ -4186,7 +4186,7 @@ function index() {
           <div className="col-md-8 mt-4">
             <label style={{ marginRight: '9px' }}>Address </label>
             <textarea
-              // required
+              required
               onChange={onChange}
               className="form-control"
               placeholder=""
@@ -4200,7 +4200,7 @@ function index() {
           <div className="col-md-8 mt-4">
             <label style={{ marginRight: '9px' }}> Contact Phone </label>
             <input
-              // required
+              required
               onChange={onChange}
               type="number"
               className="form-control"
@@ -4216,7 +4216,7 @@ function index() {
               Emergency Contact Phone{' '}
             </label>
             <input
-              // required
+              required
               onChange={onChange}
               type="number"
               className="form-control"
@@ -4232,7 +4232,7 @@ function index() {
               Emergency Contact Name{' '}
             </label>
             <input
-              // required
+              required
               onChange={onChange}
               type="text"
               className="form-control"

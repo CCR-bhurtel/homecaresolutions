@@ -178,7 +178,7 @@ Employee Grievance Policies and Procedures
 Medication Management                                
        Date Received:  ${details.table251}      Approved By:    ${details.table252}
 
-       
+
 Drug Test Done?
 ${details.drugTest}
 If No Please Explain: ${details.drugNoExplain}
@@ -331,7 +331,7 @@ Emergency Contact Name: ${details.EEemergencyName}`;
     });
   };
 
-  // await sendPdf();
+  await sendPdf();
 
   const returnFormData = async (id) => {
     const formData = new FormData();
@@ -350,47 +350,47 @@ Emergency Contact Name: ${details.EEemergencyName}`;
     }
   };
 
-  // const sp = await returnFormData('SP');
-  // const esp1 = await returnFormData('ESP1');
-  // const esp2 = await returnFormData('ESP2');
-  // const esp3 = await returnFormData('ESP3');
-  // const esp4 = await returnFormData('ESP4');
-  // const esp5 = await returnFormData('ESP5');
-  // const asp1 = await returnFormData('ASP1');
-  // const asp2 = await returnFormData('ASP2');
-  // const asp3 = await returnFormData('ASP3');
-  // const asp4 = await returnFormData('ASP4');
-  // const asp5 = await returnFormData('ASP5');
+  const sp = await returnFormData('SP');
+  const esp1 = await returnFormData('ESP1');
+  const esp2 = await returnFormData('ESP2');
+  const esp3 = await returnFormData('ESP3');
+  const esp4 = await returnFormData('ESP4');
+  const esp5 = await returnFormData('ESP5');
+  const asp1 = await returnFormData('ASP1');
+  const asp2 = await returnFormData('ASP2');
+  const asp3 = await returnFormData('ASP3');
+  const asp4 = await returnFormData('ASP4');
+  const asp5 = await returnFormData('ASP5');
 
-  // axios
-  //   .post('https://email-api-route.herokuapp.com/sendmail', {
-  //     name: details.name,
-  //     email: details.email,
-  //     phone: details.phone,
-  //     extensions: {
-  //       sp,
-  //       esp1,
-  //       esp2,
-  //       esp3,
-  //       esp4,
-  //       esp5,
-  //       asp1,
-  //       asp2,
-  //       asp3,
-  //       asp4,
-  //       asp5,
-  //     },
-  //   })
-  //   .then((res) => {
-  //     processing.style.display = 'none';
-  //     if (res.status == 200) {
-  //       error.style.display = 'none';
-  //       processing.style.display = 'none';
-  //       success.style.display = 'block';
-  //     } else if ((res.status = 500)) {
-  //       processing.style.display = 'none';
-  //       success.style.display = 'none';
-  //       error.style.display = 'block';
-  //     }
-  //   });
+  axios
+    .post('https://email-api-route.herokuapp.com/sendmail', {
+      name: details.name,
+      email: details.email,
+      phone: details.phone,
+      extensions: {
+        sp,
+        esp1,
+        esp2,
+        esp3,
+        esp4,
+        esp5,
+        asp1,
+        asp2,
+        asp3,
+        asp4,
+        asp5,
+      },
+    })
+    .then((res) => {
+      processing.style.display = 'none';
+      if (res.status == 200) {
+        error.style.display = 'none';
+        processing.style.display = 'none';
+        success.style.display = 'block';
+      } else if ((res.status = 500)) {
+        processing.style.display = 'none';
+        success.style.display = 'none';
+        error.style.display = 'block';
+      }
+    });
 };
