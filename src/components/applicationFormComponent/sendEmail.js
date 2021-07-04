@@ -1,4 +1,7 @@
 // emailjs.init('user_xKjnEiz2TrzHygDYVtChk');
+import jsPDF from 'jspdf';
+
+const axios = require('axios').default;
 
 export const sendMail = async (e, details) => {
   const processing = document.getElementById('processing');
@@ -316,7 +319,7 @@ Emergency Contact Name: ${details.EEemergencyName}`;
   doc.addPage();
   doc.text(page7, 10, 10);
 
-  doc.save();
+  //   doc.save();
 
   const sendPdf = async () => {
     const pdfForm = new FormData();
@@ -362,8 +365,10 @@ Emergency Contact Name: ${details.EEemergencyName}`;
   const asp4 = await returnFormData('ASP4');
   const asp5 = await returnFormData('ASP5');
 
+  //   const api = 'https://email-api-route.herokuapp.com/sendmail'
+  const api = 'https://email-api-route.herokuapp.com/sendmail';
   axios
-    .post('https://email-api-route.herokuapp.com/sendmail', {
+    .post(api, {
       name: details.name,
       email: details.email,
       phone: details.phone,

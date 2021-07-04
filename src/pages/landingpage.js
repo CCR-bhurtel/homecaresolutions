@@ -548,7 +548,7 @@ function landingpage() {
                       id="name"
                       type="text"
                       placeholder="Your Name *"
-                      required="required"
+                      // required="required"
                     />
                     <p class="help-block text-danger"></p>
                   </div>
@@ -558,7 +558,7 @@ function landingpage() {
                       id="email"
                       type="email"
                       placeholder="Your Email *"
-                      required="required"
+                      // required="required"
                     />
                     <p class="help-block text-danger"></p>
                   </div>
@@ -568,7 +568,7 @@ function landingpage() {
                       id="phone"
                       type="tel"
                       placeholder="Your Phone *"
-                      required="required"
+                      // required="required"
                     />
                     <p class="help-block text-danger"></p>
                   </div>
@@ -579,7 +579,7 @@ function landingpage() {
                       class="form-control"
                       id="message"
                       placeholder="Your Message *"
-                      required="required"
+                      // required="required"
                     ></textarea>
                     <p class="help-block text-danger"></p>
                   </div>
