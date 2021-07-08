@@ -132,7 +132,7 @@ function index() {
     table251: '',
     table252: '',
     CBDate: '',
-  
+
     ESP1D: '',
     ASP1: '',
     ASP1D: '',
@@ -171,7 +171,6 @@ function index() {
     EEemergencyName: '',
   });
 
- 
   const onChange = (e) => {
     setDetails({ ...details, [e.target.name]: e.target.value });
   };
@@ -1868,7 +1867,6 @@ function index() {
                   </label>
                   <input
                     required
-                   
                     type="file"
                     className="form-control"
                     id="SP"
@@ -2987,7 +2985,6 @@ function index() {
 
             <input
               required
-             
               type="file"
               className="form-control"
               id="ESP1"
@@ -3030,7 +3027,6 @@ function index() {
 
             <input
               required
-             
               type="file"
               className="form-control"
               id="ASP1"
@@ -3147,7 +3143,6 @@ function index() {
 
                 <input
                   required
-                 
                   type="file"
                   className="form-control"
                   id="ESP2"
@@ -3192,7 +3187,6 @@ function index() {
 
                 <input
                   required
-                 
                   type="file"
                   className="form-control"
                   id="ASP2"
@@ -3451,7 +3445,6 @@ function index() {
 
             <input
               required
-             
               type="file"
               className="form-control"
               id="ASP3"
@@ -3651,7 +3644,6 @@ function index() {
                 </label>
                 <input
                   required
-                 
                   type="file"
                   className="form-control"
                   id="ESP3"
@@ -3696,7 +3688,6 @@ function index() {
               </label>
               <input
                 required
-               
                 type="file"
                 className="form-control"
                 id="ASP4"
@@ -3871,7 +3862,6 @@ function index() {
 
             <input
               required
-             
               type="file"
               className="form-control"
               id="ESP4"
@@ -3915,7 +3905,6 @@ function index() {
 
             <input
               required
-             
               type="file"
               className="form-control"
               id="ASP5"
@@ -3999,7 +3988,6 @@ function index() {
 
             <input
               required
-             
               type="file"
               id="ESP5"
               name="ESP5"
