@@ -1,10 +1,10 @@
-import React from "react";
-import Applicationform from "../components/applicationFormComponent";
+import React from 'react';
+import Index from '../components/applicationFormComponent/Index';
 
 function careerspage() {
   return (
     <>
-      <Applicationform />
+      <Index />
     </>
   );
 }

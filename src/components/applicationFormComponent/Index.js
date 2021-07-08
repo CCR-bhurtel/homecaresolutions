@@ -4,7 +4,7 @@ import { Grid, TextField } from '@material-ui/core';
 import './style.css';
 import { sendMail } from './sendEmail';
 
-function index() {
+function Index() {
   const [details, setDetails] = useState({
     name: '',
     date: '',
@@ -4276,4 +4276,4 @@ function index() {
   );
 }
 
-export default index;
+export default Index;
